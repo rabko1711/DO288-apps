@@ -13,7 +13,7 @@ pipeline {
         DEV_PROJECT = "rabkoa1711-books-dev"
         STAGE_PROJECT = "rabkoa1711-books-stage"
         APP_GIT_URL = "https://github.com/rabko1711/DO288-apps"
-        NEXUS_SERVER = "https://console-openshift-console.apps.ocp-ap3.prod.nextcle.com/repository/nodejs"
+        NEXUS_SERVER = "http://nexus-common.apps.ocp-ap3.prod.nextcle.com/repository/nodejs"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
